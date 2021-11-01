@@ -1,0 +1,8 @@
+digraph "org.madu.thumbnail:thumbnail-generator-new:jar:1.0-SNAPSHOT" { 
+	"org.madu.thumbnail:thumbnail-generator-new:jar:1.0-SNAPSHOT" -> "junit:junit:jar:3.8.1:test" ; 
+	"org.madu.thumbnail:thumbnail-generator-new:jar:1.0-SNAPSHOT" -> "com.itextpdf:kernel:jar:7.0.0:compile" ; 
+	"org.madu.thumbnail:thumbnail-generator-new:jar:1.0-SNAPSHOT" -> "com.itextpdf:io:jar:7.2.0:compile" ; 
+	"org.madu.thumbnail:thumbnail-generator-new:jar:1.0-SNAPSHOT" -> "com.itextpdf:layout:jar:7.0.0:compile" ; 
+	"com.itextpdf:kernel:jar:7.0.0:compile" -> "org.slf4j:slf4j-api:jar:1.7.13:compile" ; 
+	"com.itextpdf:io:jar:7.2.0:compile" -> "com.itextpdf:commons:jar:7.2.0:compile" ; 
+ } 
